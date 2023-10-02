@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="30.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="ifpr.pgua.eic.tarefas.controllers.Cadastro">
+   <children>
+      <Button mnemonicParsing="false" onAction="#cadastrarAgenda" text="Cadastrar Agenda" />
+      <Button mnemonicParsing="false" onAction="#cadastrarEmail" text="Cadastrar Email" />
+      <Button mnemonicParsing="false" onAction="#cadastrarTelefone" text="Cadastrar Telefone" />
+      <Button mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+   </children>
+</VBox>

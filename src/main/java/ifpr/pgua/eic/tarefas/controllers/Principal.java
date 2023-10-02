@@ -7,7 +7,7 @@ public class Principal {
     
     @FXML
     private void cadastrar(){
-        App.pushScreen("");
+        App.pushScreen("CADASTRO");
     }
 
     @FXML
